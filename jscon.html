@@ -1,0 +1,29 @@
+<head>
+  <title>JS Remote Console</title>
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700|Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+  {{> logs}}
+  {{> clear_logs}}
+</body>
+
+<template name="logs">
+  <p>Remote Console Engaged</p>
+  {{#each allLogs}}
+    <div class="log-entry">
+      <pre><code class="language-javascript"><span class="meth {{meth}}">{{meth}}: </span>{{message}}</code></pre>
+      <p class="meta">
+        <small data-livestamp="{{created_at}}"></small> &mdash;
+        Organization: {{org_id}} User ID: {{ext_id}} 
+        &mdash;  <a href="#" class="open">Open</a> <a class="hide">Hide</a>
+      </p>
+    </div>
+  {{/each}}
+</template>
+
+<template name="clear_logs">
+  <button class="hide_all">Hide All Logs</button>
+  <button id="clearlogs">Clear the Console</button>
+</template>

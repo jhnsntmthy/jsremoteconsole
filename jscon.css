@@ -1,0 +1,78 @@
+/* CSS declarations go here */
+html {
+  background-color: #222;
+}
+* {
+  font-family: Lato, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #eee;
+}
+code[class*="language-"],
+pre[class*="language-"] {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 18px;
+  font-weight: 700;
+}
+pre {
+  background-color: #111;
+  padding: 10px 20px 12px;
+  margin: 0 0 0.3em;
+  border: 1px solid #444;
+  /*display: none;*/
+}
+code span.meth {
+  color: #0df;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 18px;
+  font-weight: 400;
+}
+code span.meth.info {
+  color: #0df;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 18px;
+  font-weight: 400;
+}
+code span.meth.log {
+  color: #777;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 18px;
+  font-weight: 400;
+}
+code span.meth.error {
+  color: #f03;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 18px;
+  font-weight: 400;
+}
+code span.meth.success {
+  color: #3d3;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 18px;
+  font-weight: 400;
+}
+code span.meth.warning {
+  color: #fa0;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 18px;
+  font-weight: 400;
+}
+a.open { display: none; }
+.log-entry {
+  margin-bottom: 1.5em;
+  color: #777;
+}
+p.meta {
+  margin: 0;
+  color: #777;
+  padding-left: 20px;
+}
+p.meta a {
+  color: #999;
+}
+small {
+  color: #6ab;
+}
+button {
+  color: #000;
+}
