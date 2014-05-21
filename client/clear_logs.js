@@ -5,5 +5,8 @@ Template.clear_logs.events({
   'click button.hide_all': function(e) {
     e.preventDefault();
     $("pre").hide();
+    $(".open").show();
+    $(".hide").hide();
+
   }
 })

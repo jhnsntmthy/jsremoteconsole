@@ -8,12 +8,8 @@ Meteor.startup(function () {
     return next();
   })
   return Meteor.methods({
-
     clearTheConsole: function() {
-
       return Logs.remove({});
-
     }
-
   });
 })
