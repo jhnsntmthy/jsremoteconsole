@@ -9,6 +9,7 @@ Meteor.startup(function () {
   })
   return Meteor.methods({
     clearTheConsole: function() {
+      console.log("clearing the logfiles")
       return Logs.remove({});
     }
   });
