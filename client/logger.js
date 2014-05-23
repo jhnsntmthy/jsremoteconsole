@@ -1,4 +1,4 @@
-var remote_logger_url = "//scideatim.ngrok.com/logger"
+var remote_logger_url = "//jsremoteconsole.meteor.com/logger"
 
 window.remoteJSLogger = function (msg, meth) {
   $.ajax ({

@@ -1,0 +1,15 @@
+You should have jQuery installed on your site already:
+
+To Play with this, open your JS console and type
+
+    $.getScript( "//jsremoteconsole.meteor.com/client/logger.js" )
+
+Then you will have a function called "log" available to you. Call it like:
+
+    log("Javascript is awesomerest with Meteor", "log")
+
+    log("You are successfully logging remotely", "success")
+
+    log("Uh oh", "error")
+
+All the while, watch what happens live at http://jsremoteconsole.meteor.com
