@@ -7,11 +7,8 @@ Router.map(function () {
 
     action: function () {
       var filename = this.params.filename;
-      resp = {'org_id' : this.request.query.org_id,
-              'ext_id' : this.request.query.ext_id,
-              'msg' : this.request.query.msg,
-              'meth': this.request.query.meth,
-              'created_at' : new Date().toISOString() };
+      resp = this.request.query
+      resp['created_at'] = new Date().toISOString();
               
       Logs.insert(resp)
       // console.log(this.request)
