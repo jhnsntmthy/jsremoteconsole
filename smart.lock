@@ -4,8 +4,7 @@
     "basePackages": {
       "iron-router": {},
       "moment": {},
-      "livestamp": {},
-      "prismjs": {}
+      "livestamp": {}
     },
     "packages": {
       "iron-router": {
@@ -22,11 +21,6 @@
         "git": "https://github.com/colllin/meteor-livestamp.git",
         "tag": "v1.1.2-3",
         "commit": "d161b9de53d7032511ecaa13486b6b5cb11f71f3"
-      },
-      "prismjs": {
-        "git": "https://github.com/santihbc/meteor-prism-js.git",
-        "tag": "v0.1.0",
-        "commit": "4c5e65fff43765569d489af826b23c7a14e75982"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",

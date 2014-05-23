@@ -2,7 +2,6 @@
   "packages": {
     "iron-router": {},
     "moment": {},
-    "livestamp": {},
-    "prismjs": {}
+    "livestamp": {}
   }
 }
