@@ -2,7 +2,7 @@ You should have jQuery installed on your site already:
 
 To Play with this, open your JS console and type
 
-    $.getScript( "//jsremoteconsole.meteor.com/client/logger.js" )
+    $.getScript( "//jsremoteconsole.meteor.com/logger.js" )
 
 Then you will have a function called "log" available to you. Call it like:
 
