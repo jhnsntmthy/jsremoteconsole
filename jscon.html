@@ -5,8 +5,6 @@
 </head>
 
 <body>
-  {{> logs}}
-  {{> clear_logs}}
 </body>
 
 <template name="logs">
@@ -22,6 +20,7 @@
       </p>
     </div>
   {{/each}}
+  {{> clear_logs}}
 </template>
 
 <template name="clear_logs">

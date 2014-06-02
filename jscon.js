@@ -1,6 +1,7 @@
 Logs = new Meteor.Collection('logs');
 
 Router.map(function() {
+	this.route("logs", {path: "/"});
   this.route("serverFile", {
     path: "/logger/",
     where: "server",
